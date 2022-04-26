@@ -1,0 +1,131 @@
+body
+  width: 100%
+  height: 100%
+  overflow: hidden
+  background: url("../img/bg.jpg") no-repeat
+  background-size: cover
+.container
+  width: 1439px
+  height: 100vh
+  position: relative
+  margin: 0 auto
+.header
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding-top: 50px
+  &__btn
+    width: 308px
+    height: 54px
+    display: flex
+    justify-content: center
+    align-items: center
+    font-family: 'Conthrax-sb'
+    font-size: 32px
+    line-height: 38px
+    background: linear-gradient(180deg, #3AFFCA 0%, #2CD097 100%)
+    box-shadow: 0px 0px 13px #34F8B4, 0px 17.8667px 35.7333px rgba(10, 50, 36, 0.25), inset 0px -5.95556px 5.95556px #2AC690, inset 0px 5.95556px 5.95556px #3CFFD1
+    border-radius: 19px
+    letter-spacing: 0.08em
+    text-decoration: none
+    color: #003F29
+    &:hover
+      background: linear-gradient(180deg, #27a281 0%, #28a97c 100%)
+.description
+  padding-top: 89px
+  &__title
+    font-family: 'AndroidAssassinItalic'
+    font-size: 50px
+    line-height: 57px
+    color: #fff
+    span
+      margin-right: -17px
+      padding-right: 17px
+      font-size: 90px
+      line-height: 104px
+      background: linear-gradient(180deg, #1C4AFF 0%, #5A9DED 100%)
+      -webkit-background-clip: text
+      -webkit-text-fill-color: transparent
+  &__win
+    font-family: 'AndroidAssassinItalic'
+    font-size: 90px
+    line-height: 104px
+    background: linear-gradient(180deg, #1C4AFF 0%, #5A9DED 100%)
+    -webkit-background-clip: text
+    -webkit-text-fill-color: transparent
+  &__period
+    padding-top: 40px
+    font-family: 'Conthrax-sb'
+    letter-spacing: 0.05em
+    font-size: 30px
+    line-height: 36px
+    color: #fff
+    p
+      &:first-child
+        margin-bottom: 20px
+        text-transform: uppercase
+.btn
+  width: 464px
+  height: 91px
+  display: flex
+  justify-content: center
+  align-items: center
+  margin: 67px 0 59px
+  font-family: 'Conthrax-sb'
+  font-size: 40px
+  line-height: 48px
+  background: linear-gradient(180deg, #3AFFCA 0%, #2CD097 100%)
+  box-shadow: 0px 0px 13px #34F8B4, 0px 17.8667px 35.7333px rgba(10, 50, 36, 0.25), inset 0px -5.95556px 5.95556px #2AC690, inset 0px 5.95556px 5.95556px #3CFFD1
+  border-radius: 19px
+  text-decoration: none
+  color: #003F29
+  &:hover
+    background: linear-gradient(180deg, #27a281 0%, #28a97c 100%)
+.steps
+  position: relative
+  display: flex
+  &__item
+    width: 550px
+    height: 114px
+    display: flex
+    align-items: center
+    background: url("../img/Rectangle2-3.png") no-repeat center center
+    background-size: contain
+    text-decoration: none
+    &:hover span
+      color: #adb8ce
+    span
+      text-align: center
+      font-family: 'SpaceGrotesk-Medium'
+      font-size: 32px
+      line-height: 40px
+      text-decoration: none
+      color: #fff
+    &:nth-child(1)
+      position: absolute
+      z-index: 3
+      span
+        width: 467px
+    &:nth-child(2)
+      position: absolute
+      left: 455px
+      z-index: 2
+      span
+        width: 290px
+        margin-left: 120px
+    &:nth-child(3)
+      position: absolute
+      left: 910px
+      z-index: 1
+      span
+        width: 395px
+        margin-left: 50px
+.person
+  width: 655px
+  position: absolute
+  bottom: -10px
+  right: 0
+.person-mob
+  display: none
+.btn-mob
+  display: none
